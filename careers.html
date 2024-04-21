@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="js/script.js" defer></script>
+    <title>Careers</title>
+  </head>
+  <body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li class="mobile-only">
+          <a href="luthoraero.html">Luthor Aerospace</a>
+        </li>
+        <li class="mobile-only">
+          <a href="luthortech.html">Luthor Technologies</a>
+        </li>
+        <li class="mobile-only"><a href="cadmus.html">Cadmus Labs</a></li>
+        <li class="mobile-only"><a href="#">Luthor Pharmaceuticals</a></li>
+        <li class="mobile-only"><a href="#">Luthor Foundation</a></li>
+        <li><a href="lexmart.html">LexMart</a></li>
+        <li><a href="mission.html">Mission</a></li>
+        <li><a href="careers.html">Careers</a></li>
+      </ul>
+    </div>
+    <header class="main-header">
+      <div class="logo">
+        <a href="index.html">
+            <img src="img/lexcorp.png" alt="Logo LexCorp" />
+        </a>
+      </div>
+      <nav class="desktop-main-menu">
+        <ul>
+          <li><a href="luthoraero.html">Luthor Aerospace</a></li>
+          <li><a href="luthortech.html">Luthor Technologies</a></li>
+          <li><a href="cadmus.html">Cadmus Labs</a></li>
+          <li><a href="#">Luthor Pharmaceuticals</a></li>
+          <li><a href="#">Luthor Foundation</a></li>
+        </ul>
+      </nav>
+    </header>
+    <button id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+    <section class="section-animate bg-speech"></section>
+    <div class="section-inner-center fade-in">
+      <h3>HELP SHAPE THE WORLD OF TOMORROW</h3>
+      <p>
+        LexCorp is looking for world-class talent ready to tackle challenging
+        projects that will ultimately lead us to a better tomorrow.<br />
+        We are an equal opportunity employer offering competitive salaries,
+        comprehensive health benefits and equity packages.
+      </p>
+      <div class="rowselect">
+        <a href="#job" class="btn">
+          <div class="hover"></div>
+          <span>Apply Now</span>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-arrow">
+      <svg width="30px" height="20px">
+        <path
+          stroke="#ffffff"
+          fill="none"
+          stroke-width="2px"
+          d="M2.000,5.000 L15.000,18.000 L28.000,5.000"
+        ></path>
+      </svg>
+    </div>
+    <div class="rowselect">
+      <h2><br />START YOUR JOURNEY AT LEXCORP</h2>
+    </div>
+    <div class="jobsearch" id="job">
+      <form action="" class="form">
+        <input
+          type="text"
+          id="filter"
+          class="form-control"
+          placeholder="AVAILABLE JOBS"
+          onkeyup="searchBlog()"
+        />
+        <div class="dropdown">
+          <div class="select">
+            <span class="selected">Location</span>
+            <div class="caret"></div>
+          </div>
+          <ul class="dropdown-menu">
+            <li class="active">Location</li>
+            <li>Division</li>
+            <li>Employment Type</li>
+          </ul>
+        </div>
+        <a href="#jobs" class="btn2">
+          <div class="hover"></div>
+          <span>Search <i class="bx bx-search"></i></span>
+        </a>
+      </form>
+      <table id="tjob" class="jobs">
+        <thead>
+          <tr>
+            <th><strong>JOB TITLE</strong></th>
+            <th><strong>LOCATION</strong></th>
+            <th><strong>DIVISION</strong></th>
+            <th><strong>EMPLOYMENT TYPE</strong></th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+            <td>AP Technician (Excalibur) - Multiple Shifts</td>
+            <td>Metropolis, Kansas</td>
+            <td>Luthor Aerospace</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Accountant, International</td>
+            <td>Star City, California</td>
+            <td>S.T.A.R Labs</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>Software Engineer</td>
+            <td>Brooklyn, New York</td>
+            <td>T.C.R.I</td>
+            <td>Part-Time</td>
+          </tr>
+          <tr>
+            <td>Accounts Payable Specialist</td>
+            <td>Tokyo, Japan</td>
+            <td>T.C.R.I</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Aerodynamics Engineer (Lex Airways)</td>
+            <td>Coast City, California</td>
+            <td>Luthor Aerospace</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Technical Writer (HQ)</td>
+            <td>Metropolis, Kansas</td>
+            <td>LexCorp</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Antenna Engineer (LexLink)</td>
+            <td>Shiruta, Kahndaq</td>
+            <td>Luthor Aerospace</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Biochemical Engineer</td>
+            <td>Smallville, Kansas</td>
+            <td>Cadmus</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Product Manager</td>
+            <td>Gotham City, New Jersey</td>
+            <td>LexMart</td>
+            <td>Part-Time</td>
+          </tr>
+          <tr>
+            <td>Janitor</td>
+            <td>Gotham City, New Jersey</td>
+            <td>LexMart</td>
+            <td>Part-Time</td>
+          </tr>
+          <tr>
+            <td>Electrical Engineer (Intern)</td>
+            <td>Palmera City, Texas</td>
+            <td>LexCorp</td>
+            <td>Part-Time</td>
+          </tr>
+          <tr>
+            <td>Pharmacist</td>
+            <td>Central City, Missouri</td>
+            <td>Luthor Pharmaceuticals</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Assistant Pharmacist</td>
+            <td>Central City, Missouri</td>
+            <td>Luthor Pharmaceuticals</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Pharmacist</td>
+            <td>Smallville, Kansas</td>
+            <td>Luthor Pharmaceuticals</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Software Engineer (Intern)</td>
+            <td>Central City, Missouri</td>
+            <td>Luthor Foundation</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>AP Technician (Lex Airways)</td>
+            <td>Coast City, California</td>
+            <td>Luthor Aerospace</td>
+            <td>Part-Time</td>
+          </tr>
+          <tr>
+            <td>Floor Manager</td>
+            <td>Metropolis, Kansas</td>
+            <td>Human Resources</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>Civil Engineer</td>
+            <td>Keystone City, Kansas</td>
+            <td>S.T.A.R Labs</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>Biologist (Metahuman & Alien Physiology)</td>
+            <td>Keystone City, Kansas</td>
+            <td>S.T.A.R Labs</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Civil Engineer</td>
+            <td>Keystone City, Kansas</td>
+            <td>S.T.A.R Labs</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>Nuclear Physicist</td>
+            <td>Chicago, Illinois</td>
+            <td>S.T.A.R Labs</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>HR Manager</td>
+            <td>Palmera City, Texas</td>
+            <td>Human Resources</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Metahuman Anaylist</td>
+            <td>Palmera City, Texas</td>
+            <td>LexCorp</td>
+            <td>Contractual</td>
+          </tr>
+          <tr>
+            <td>Regional Manager</td>
+            <td>Scranton, Pennsylvania</td>
+            <td>T.C.R.I</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Assistant to the Regional Manager</td>
+            <td>Scranton, Pennsylvania</td>
+            <td>T.C.R.I</td>
+            <td>Regular</td>
+          </tr>
+          <tr>
+            <td>Robotics Engineer</td>
+            <td>Brooklyn, New York</td>
+            <td>T.C.R.I</td>
+            <td>Contractual</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <ul>
+        <li>LexCorp &copy; 2024</li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Suppliers</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
